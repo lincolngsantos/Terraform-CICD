@@ -1,4 +1,4 @@
-name: Deploy Infrastructure
+name: 'Deploy Infrastructure'
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   pull_request:
 jobs:
   terraform:
-    name: Deploy Site
+    name: 'Deploy Site'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
